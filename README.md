@@ -1,5 +1,5 @@
 # git_note
-[GitHub Cheat Sheet](https://github.github.com/training-kit/) | [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html)
+ [Github Manual](https://githubtraining.github.io/training-manual/#/) | [GitHub Cheat Sheet](https://github.github.com/training-kit/) | [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html)
 
 -   [安装](#安装)
 -   [配置工具](#配置工具)
@@ -11,13 +11,11 @@
 -   [重做提交](#重做提交)
 -   [术语表](#术语表)
 
-
+------
 
 ## 安装
 
 [desktop.github.com](https://desktop.github.com/) | [git-scm.com](https://git-scm.com/)
-
-
 
 ## 配置工具
 
@@ -40,8 +38,6 @@ git config --global user.email "[email address]"
 ```bash
 $ git config --global color.ui auto
 ```
-
-
 
 ## 分支
 
@@ -71,8 +67,6 @@ git merge [branch]
 git branch -d [branch-name]
 ```
 
-
-
 ## 创建仓库
 
 当着手于一个新的仓库时，你只需创建一次。要么在本地创建，然后推送到 GitHub；要么通过 clone 一个现有仓库。
@@ -95,13 +89,9 @@ Clone（下载）一个已存在于 GitHub 上的仓库，包括所有的文件�
 git clone [url]
 ```
 
-
-
 ## .gitignore文件
 
 有时一些文件最好不要用 Git 跟踪。这通常在名为 `.gitignore` 的特殊文件中完成。你可以在 [github.com/github/gitignore](https://github.com/github/gitignore) 找到有用的 `.gitignore` 文件模板。
-
-
 
 ## 同步更改
 
@@ -130,8 +120,6 @@ git push
 ```bash
 git pull
 ```
-
-
 
 ## 进行更改
 
@@ -173,8 +161,6 @@ git add [file]
 git commit -m "[descriptive message]"
 ```
 
-
-
 ## 重做提交
 
 清除错误和构建用于替换的历史
@@ -192,8 +178,6 @@ $ git reset --hard [commit]
 ```
 
 >   小心！更改历史可能带来不良后果。如果你需要更改 GitHub（远端）已有的提交，请谨慎操作。如果你需要帮助，可访问 [github.community](https://github.community/) 或联系支持(support)。
-
-
 
 ## 术语表
 
