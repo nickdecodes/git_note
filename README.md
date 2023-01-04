@@ -1,4 +1,4 @@
-# git_note
+# git-note
  [Github Manual](https://githubtraining.github.io/training-manual/#/) | [GitHub Cheat Sheet](https://github.github.com/training-kit/) | [Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html)
 
 -   [安装](#安装)
